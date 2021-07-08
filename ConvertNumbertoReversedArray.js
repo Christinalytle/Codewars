@@ -27,3 +27,10 @@ function digitize(n) {
 }
 
 digitize(348597);
+
+//Christina Lytle Solution
+function digitize(n) {
+    let reverseArray = n.toString().split('').reverse().map(x=>+x); 
+    return reverseArray; 
+
+}
